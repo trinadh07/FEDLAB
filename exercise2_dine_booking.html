@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Dine booking</title>
+</head>
+<body>
+<center>
+<h1>Dine Booking</h1>
+<table>
+<form name="f">
+<tr>
+<td>Visitor Name:</td>
+<td><input type="text" name="visitorname" required maxlength="20"></td>
+</tr>
+<tr><td>Number of members:</td><td><input type="number" required max="99" name="no.ofmembers"></td></tr>
+<tr><td>contact No:</td><td><input type="number" name="contactno" min="6666666666" max="9999999999"required></td></tr>
+<tr><td>Email:</td><td><input type="email" name="email" required></td></tr>
+<tr><td>Type of food:</td><td><input type="checkbox" name="food" required checked>South Indian
+<input type="checkbox" name="food">North Indian
+<input type="checkbox" name="food">Chinese
+<input type="checkbox" name="food">Western</td></tr>
+<tr><td>Room status:</td><td><input type="radio" name="status" checked>AC
+<input type="radio" name="status">NON AC</td></tr>
+<tr><td>Venue Preference:</td><td><select name="venue">
+    <option value="arena">Arena</option>
+    <option value="fiesta">Fiesta</option>
+    <option value="vista">Vista</option>
+    <option value="mythri">Mythri</option>
+    <option value="magna">Magna</option>
+    <option value="oasis">Oasis</option>
+    <option value="amoeba" disabled>Amoeba</option></select></td></tr>
+<tr><td><input type="submit" name="book" value="submit">
+</td><td><input type="reset" name="Reset" value="Reset"></td></tr
+</form>
+</table>
+

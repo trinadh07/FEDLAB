@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Dine booking</title>
+</head>
+<body>
+<center>
+<form name="f">
+<h1>Dine Booking</h1>
+Visitor Name:<input type="text" name="visitorname" required maxlength="20"><br>
+Number of members:<input type="number" required max="99" name="no.ofmembers"><br>
+contact No:<input type="number" name="contactno" min="6666666666" max="9999999999"required><br>
+Email:<input type="email" name="email" required><br>
+Type of food:<input type="checkbox" name="food" required checked>South Indian
+<input type="checkbox" name="food">North Indian
+<input type="checkbox" name="food">Chinese
+<input type="checkbox" name="food">Western<br>
+Room status:<input type="radio" name="status" checked>AC
+<input type="radio" name="status">NON AC<br>
+Venue Preference:<select name="venue">
+    <option value="arena">Arena</option>
+    <option value="fiesta">Fiesta</option>
+    <option value="vista">Vista</option>
+    <option value="mythri">Mythri</option>
+    <option value="magna">Magna</option>
+    <option value="oasis">Oasis</option>
+    <option value="amoeba" disabled>Amoeba</option></select>
+<br><input type="submit" name="book" value="submit">
+<input type="reset" name="Reset" value="Reset">
+
